@@ -35,6 +35,7 @@ pml_trainM$classe <- classe
 ##Training the model
 library(caret)
 
+
 RF <- train(classe ~ ., data=pml_trainM, method="rf")
 
 Random Forest 
